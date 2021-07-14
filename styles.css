@@ -12,6 +12,12 @@
 
 @media (max-width: 700px) {
 
+    div.main-heading {
+        justify-content: center;
+        align-items: center;
+        padding-left: 85px;
+    }
+
     div.first-container{
         height: 1200px;
 
@@ -43,6 +49,12 @@
          width: 300px;
          padding-left: 40px;
      }
+
+     /* footer logo  */
+     div.logo img{
+         width: 130px;
+         padding-left: 2px;
+     }
 }   
 
 
@@ -64,7 +76,7 @@
     margin-top: 12%;
     color: rgb(255, 255, 255);
 }
-.main-heading h1{
+h1{
     
     font-weight: bold;
     font-size: 64px;
@@ -137,22 +149,45 @@
  .third-heading{
     width: 700px;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 8px;
     padding-top: 80px;
-    padding-left: 194px;
+    padding-left: 110px;
  }
 
- .third-img{
-     display: grid;
-     justify-content: center;
-     align-content: center;
- }
+ 
  .third-img img{
-    width: 620px;
+    width: 610px;
     margin-top: 40px;
-    /* padding-right: 10%;  */
-    padding-left: 140px;
+    padding-right: 20px; 
+    padding-left: 110px;
     
+ }
+
+ /* footer and logo  */
+
+ .logo img {
+     
+     margin-left: 208px;
+     padding-left: 520px;
+     width: 350px;
+     align-items: center;
+ }
+
+ .icon{
+     display: flex;
+     justify-content: center;
+ }
+
+ .fab {
+     padding-right: 15px;
+     
+ }
+
+ footer{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     text-align: center;
+     font-weight: 600;
  }
 
 
