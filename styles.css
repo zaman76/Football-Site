@@ -1,5 +1,15 @@
 /* Common Style  */
 
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(190, 22, 22), rgb(228, 65, 24));
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    
+}
+
 @media (max-width: 700px) {
 
     .container{
@@ -28,7 +38,7 @@
 .main-heading{
     width: 50%;
     padding-left: 6%;
-    margin-top: 15%;
+    margin-top: 12%;
     color: rgb(255, 255, 255);
 }
 .main-heading h1{
@@ -38,15 +48,7 @@
     line-height: 80px;
 }
 
-.button{
-    text-decoration: none;
-    background-image: linear-gradient(rgb(190, 22, 22), rgb(228, 65, 24));
-    font-weight: 700;
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: white;
-    
-}
+
 
 .main-img:hover{
     display: flex;
@@ -58,7 +60,7 @@
 }
 .main-img img{
     width: 600px;  
-    margin-top: 22%;  
+    margin-top: 20%;  
 }
 
 /* Mid container Css */
@@ -100,5 +102,28 @@
     transition: transform 1.5s ;
 }
 
+ /* Third page CSS */
+
+ .third-container{
+     display: flex;
+     margin-top: 90px;
+     margin-bottom: 20px;
+ }
+
+ .third-heading{
+    width: 200px;
+    height: 200px;
+    padding-left: 2%;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 80px;
+ }
+
+ .third-img{
+    width: 50%;
+    float: right;
+    margin-top: 40px;
+    padding-right: 10%; 
+ }
 
 
