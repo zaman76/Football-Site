@@ -12,20 +12,43 @@
 
 @media (max-width: 700px) {
 
-    .container{
+    div.first-container{
         height: 1200px;
 
     }
-    .main-img img {
-        width: 20%;
-    }
     
+    div.main-img img {
+        width: 70%;
+    }
+
+
+    /* third page  */
+    div.third-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    div.third-heading{
+        width: 600px;
+        margin-top: 0;
+        margin-left: 0;
+        padding-top: 0;
+        padding-left: 35px;
+        padding-right: 35px;
+     }
+     div.third-img img{
+         width: 300px;
+         padding-left: 40px;
+     }
 }   
 
 
 /* Main Container CSS */
 
-    .container{
+    .first-container{
     display: flex;   
     flex-wrap: wrap;
     width: 100%;
@@ -106,24 +129,30 @@
 
  .third-container{
      display: flex;
-     margin-top: 90px;
-     margin-bottom: 20px;
- }
+     margin-top: 165px;
+    margin-bottom: 130px;
+}
+ 
 
  .third-heading{
-    width: 200px;
-    height: 200px;
-    padding-left: 2%;
+    width: 700px;
     margin-top: 50px;
     margin-left: 10px;
     padding-top: 80px;
+    padding-left: 194px;
  }
 
  .third-img{
-    width: 50%;
-    float: right;
+     display: grid;
+     justify-content: center;
+     align-content: center;
+ }
+ .third-img img{
+    width: 620px;
     margin-top: 40px;
-    padding-right: 10%; 
+    /* padding-right: 10%;  */
+    padding-left: 140px;
+    
  }
 
 
